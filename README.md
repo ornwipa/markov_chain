@@ -36,4 +36,6 @@ Loading required package: shape
 
 ## Acknowledgement
 
-More detailed instructions and reading resources can be found in [RPubs](https://rpubs.com/JanpuHou/326048).
+More detailed instructions and reading resources for the weather example can be found in [RPubs](https://rpubs.com/JanpuHou/326048).
+
+Markov chain applied to Susceptible-Infected-Recovered model in epidemic can be found in [R-bloggers](https://www.r-bloggers.com/2015/12/a-discrete-time-markov-chain-dtmc-sir-model-in-r/)

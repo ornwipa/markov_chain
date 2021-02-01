@@ -7,7 +7,7 @@ In a Markov process, the probability of a random variable X being equal to some 
 This code repository covers two examples on how to:
 - define a transition probability matrix
 - create a discrete-time Markov chain
-- access a transition probability from one state to another 
+- access a transition probability from one to the other states
 - simulate the state probability after n steps, given an initial state
 - find transient states and absorbing state
 - find the state probability at steady state
@@ -37,13 +37,11 @@ Loading required package: shape
 
 ## Results
 
-Weather forecast: [weather.R](https://github.com/ornwipa/markov_chain/blob/master/weather.R)
-
-![](https://github.com/ornwipa/markov_chain/blob/master/Figures/weather_diagram1.png) ![]()https://github.com/ornwipa/markov_chain/blob/master/Figures/weather_diagram2.png
+Weather forecast: [weather.R](https://github.com/ornwipa/markov_chain/blob/master/weather.R), [default transition (state/probability) diagram](https://github.com/ornwipa/markov_chain/blob/master/Figures/weather_diagram1.png), [more beautiful diagram](https://github.com/ornwipa/markov_chain/blob/master/Figures/weather_diagram2.png)
 
 Epidemic simulation (susceptible-infected-recovered): [epidemic.R](https://github.com/ornwipa/markov_chain/blob/master/epidemic.R)
 
-![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_diagram.png) ![]()https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_stateProbOverTime.png
+![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_diagram.png) ![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_stateProbOverTime.png)
 
 ## Acknowledgement
 

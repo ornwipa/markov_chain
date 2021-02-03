@@ -42,9 +42,11 @@ For the case study on epidemic modeling with system dynamics, install `deSolve` 
 
 Weather forecast: [weather.R](https://github.com/ornwipa/markov_chain/blob/master/weather.R), [default transition (state/probability) diagram](https://github.com/ornwipa/markov_chain/blob/master/Figures/weather_diagram1.png), [more beautiful diagram](https://github.com/ornwipa/markov_chain/blob/master/Figures/weather_diagram2.png)
 
-Epidemic simulation (susceptible-infected-recovered): [epidemic.R](https://github.com/ornwipa/markov_chain/blob/master/epidemic.R)
+Epidemic simulation (susceptible-infected-recovered, SIR): [epidemic.R](https://github.com/ornwipa/markov_chain/blob/master/epidemic.R)
 
-![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_diagram.png =250x) ![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_stateProbOverTime.png)
+![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_diagram.png) ![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_stateProbOverTime.png)
+
+Solving SIR model with ordinary differential equations, i.e. system dynamics approach: [epi_ode.R](https://github.com/ornwipa/markov_chain/blob/master/epi_ode.R)
 
 ## Acknowledgement
 

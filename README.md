@@ -13,8 +13,13 @@ This code repository covers two examples - weather and epidemic - on how to:
 - find the state probability at steady state
 - draw the state transition diagram
 
-In the third case study, the epidemic (or pandemic) is modeled and solved with a system of ordinary differential equations as well as with Jacobian matrix.
+In the third case study, the epidemic is modeled and solved with a system of ordinary differential equations as well as with Jacobian matrix. 
 
+For simplicity, this study considers the states of "susceptible", "infected" and "recovered" (SIR). Often times, such model can also be viewed as "susceptible", "exposed", "infected" and "recovered" (SEIR).
+
+In other cases, such as COVID-19, there could also be the states of "hospitalized", "ICU" and "dead". 
+
+One interesting [scientific article](https://doi.org/10.1051/mmnp/2020045) even broke down the states into "infected undetected", "infected detected", "recovered undetected" and "recovered undetected" to find a balance among interventions: testing/tracing/isolating, quarantine/lockdown, and raising ICU capacity.
 
 ## Requirement
 
@@ -44,7 +49,7 @@ Weather forecast: [weather.R](https://github.com/ornwipa/markov_chain/blob/maste
 
 Epidemic simulation (susceptible-infected-recovered, SIR): [epidemic.R](https://github.com/ornwipa/markov_chain/blob/master/epidemic.R)
 
-![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_diagram.png) ![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_stateProbOverTime.png)
+<img src="https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_diagram.png" width="303" height="289"> ![](https://github.com/ornwipa/markov_chain/blob/master/Figures/SIR_stateProbOverTime.png)
 
 Solving SIR model with ordinary differential equations, i.e. system dynamics approach: [epi_ode.R](https://github.com/ornwipa/markov_chain/blob/master/epi_ode.R)
 
